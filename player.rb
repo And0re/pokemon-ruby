@@ -11,7 +11,7 @@ class Player
     @pokemon.moves.each_with_index { |move, index| print "#{index+1}. #{move}      " }
     puts
     move = gets.chomp
-    # @pokemon.set_current_move(move)
+    # @pokemon.current_move(move)
   end
 end
 
@@ -24,7 +24,7 @@ class Bot < Player
 
   def select_move
     move = @pokemon.moves.sample
-    # @pokemon.set_current_move(move)
+    # @pokemon.current_move(move)
   end
 end
 

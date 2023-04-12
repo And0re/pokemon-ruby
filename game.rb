@@ -119,7 +119,7 @@ When you feel ready you can challenge #{c('BROCK', :light_yellow)}, the #{c('PEW
   def goodbye
     puts "\nThanks #{c('for', :magenta)} playing  #{c('POKEMON RUBY', :light_yellow)}"
     print "This game was created #{c('with', :magenta)} love by #{c('for', :magenta)}"
-    print "[:#{c('Androre', :light_blue)}, :#{c('Steven', :light_blue)}, :#{c('JuanCarlos', :light_blue)}]\n\n"
+    print "[:#{c('Andore', :light_blue)}, :#{c('Steven', :light_blue)}, :#{c('JuanCarlos', :light_blue)}]\n\n"
   end
 
   def menu

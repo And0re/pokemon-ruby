@@ -29,8 +29,8 @@ class Battle
       puts "#{@player1.name}, select your move:\n\n"
       move1 = @player1.select_move
       move2 = @bot.select_move
-      @pokemon1.set_current_move(move1)
-      @pokemon2.set_current_move(move2)
+      @pokemon1.current_move = move1
+      @pokemon2.current_move = move2
       first = attack_order(@pokemon1, @pokemon2)
       second = first == @pokemon1 ? @pokemon2 : @pokemon1
       puts "\n--------------------------------------------------"
